@@ -1,0 +1,40 @@
+
+
+.favourite-btn{
+    width: 30px;
+    height: 30px;
+    background-color: f2f2f2;
+    border-radius: 30px;
+
+    display: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    font-size: 13px;
+    
+}
+
+
+html, body {
+    background-color: #0f0f0f;
+    color: white;
+    padding: 10px;  
+}
+
+.navbar {
+    background-color: #212529;
+}
+
+.card-body {
+    background-color: #212529;
+}
+
+.swal-modal {
+    background-color: rgba(33,37,41,0.79);
+    border: 3px solid white;
+    font-size: 13px;
+
+  }
