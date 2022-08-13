@@ -13,10 +13,6 @@ export default function Login ({ setUserIsLogged }) {
 
     const regexEmail = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 
-    // si el email es un string vacio o si el password es un string vacio
-    // entonces lanzar un mensaje que diga
-    // "los campos no pueden estar vacios"
-
     if (email === '' || password === '') {
       sweetAlert(<h2>Fields cannot be empty.</h2>)
       return

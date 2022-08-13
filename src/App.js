@@ -1,8 +1,6 @@
-// Librerias
 import { Routes, Route } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
-// Componentes
 import Header from './components/Header'
 import Listado from './components/Listado'
 import Login from './components/Login'
@@ -10,7 +8,6 @@ import Detalle from './components/Detalle'
 import Resultados from './components/Resultados'
 import Favoritos from './components/Favoritos'
 
-// Styles
 import './css/bootstrap.min.css'
 import './css/app.css'
 

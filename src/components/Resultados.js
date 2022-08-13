@@ -13,7 +13,7 @@ export default function Resultados (props) {
   const [moviesResults, setMoviesResults] = useState([])
 
   useEffect(() => {
-    const endPoint = `https://api.themoviedb.org/3/search/movie?api_key=128ca6907dfc713026c80ca3a057dbee&language=es-ES&query=${keyword}`
+    const endPoint = `https://api.themoviedb.org/3/search/movie?api_key=128ca6907dfc713026c80ca3a057dbee&language=en-EN&query=${keyword}`
     axios.get(endPoint).then(response => {
       const moviesArray = response.data.results
 

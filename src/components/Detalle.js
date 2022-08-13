@@ -11,7 +11,7 @@ export default function Detalle () {
   const [movie, setMovie] = useState(null)
 
   useEffect(() => {
-    const endPoint = `https://api.themoviedb.org/3/movie/${movieID}?api_key=128ca6907dfc713026c80ca3a057dbee&language=es-ES`
+    const endPoint = `https://api.themoviedb.org/3/movie/${movieID}?api_key=128ca6907dfc713026c80ca3a057dbee&language=en-EN`
     axios.get(endPoint)
       .then(response => {
         const apiData = response.data

@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom'
 // components
 import Buscador from './Buscador'
 
-// export default function Header ({ favorites, userIsLogged }) {
-
 const Header = ({ favorites, userIsLogged }) => {
   return (
     <header className='sticky-top'>
