@@ -5,6 +5,9 @@ import { useNavigate, Link } from 'react-router-dom'
 export default function Login ({ setUserIsLogged }) {
   //
   const navigate = useNavigate()
+  //
+  const API = process.env.REACT_APP_API
+  const token = process.env.REACT_APP_API_TOKEN
 
   const submitHandler = (e) => {
     e.preventDefault()
@@ -27,19 +30,18 @@ export default function Login ({ setUserIsLogged }) {
       sweetAlert(<h2>Invalid credentials.</h2>)
     }
     axios
-      .post('http://challenge-react.alkemy.org', { email, password })
+      .post(API, { email, password })
+      // 'http://challenge-react.alkemy.org'
       .then(res => {
         sweetAlert(<h2>Perfect, you entered correctly.</h2>)
         const tokenRecibido = res.data.token
         localStorage.setItem('token', tokenRecibido)
         setUserIsLogged(true)
         navigate('/listado')
-        // INFO: localStorage.getItem('token) para recibir el valor
+        // INFO: localStorage.getItem('token') para recibir el valor
         // INFO: localStorage.clear() para borrar el Storage de la consola
       })
   }
-
-  const token = localStorage.getItem('token')
 
   return (
     <>
