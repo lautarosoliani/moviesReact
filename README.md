@@ -1,7 +1,6 @@
 
-<img  src="https://ibb.co/xgFCfzj" width="70%" height="70%">
 
-<img  src="https://ibb.co/n1bN679" width="70%" height="70%">
+<a href="https://ibb.co/xgFCfzj"><img src="https://i.ibb.co/NNTVmWj/movie-app-001.png" alt="movie-app-001" border="0"></a>
 
 ![hippo](https://media.giphy.com/media/zyOiLmDTL3dNteIIb1/giphy.gif)
 
