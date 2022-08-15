@@ -1,4 +1,5 @@
-<h1>Link to Deployed App</h1>
+<h1>Deployed App</h1>
+<p>The web has been deployed in Netlify</p>
 https://lautaro-soliani.netlify.app/
 <br>
 <br>
